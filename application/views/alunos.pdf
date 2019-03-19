@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Relatório</title>
+</head>
+<body>
+  <table id="table" class="table table-bordered table-hover">
+    <thead>
+      <th>ID</th>
+      <th>Nome</th>
+      <th>Data de Nascimento</th>
+      <th>CEP</th>
+      <th>Logradouro</th>
+      <th>Número</th>
+      <th>Bairro</th>
+      <th>Cidade</th>
+      <th>Estado</th>
+      <th>Curso</th>
+      <th>Criado em</th>
+      <th></th>
+      <th></th>
+    </thead>
+    <tbody>
+        
+    </tbody>
+  </table>
+</body>
+</html>

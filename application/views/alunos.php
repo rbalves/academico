@@ -34,7 +34,7 @@
           <a href="#">
             <button id="novo" class="btn btn-success btn-modal" data-toggle="modal" data-target="#form"><span class="fa fa-plus"></span> Novo</button>
           </a>
-          <a href="#">
+          <a href="aluno/relatorio">
             <button id="relatorio" class="btn btn-info"><span class="fa fa-file"></span> Relatório</button>
           </a>
         </div>

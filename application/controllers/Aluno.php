@@ -9,4 +9,11 @@ class Aluno extends CI_Controller {
 		$variaveis['consulta'] = $consulta;
 		$this->load->view('alunos', $variaveis);
 	}
+
+	public function relatorio(){
+		$this->load->library('pdf');
+  		$this->pdf->load_view('alunos');
+  		$this->pdf->render();
+  		$this->pdf->stream("alunos.pdf");	
+	}
 }
